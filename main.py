@@ -26,8 +26,8 @@ except Exception as e:
     easyocr = None
 
 # Telegram
-from telegram import Update, Bot
-from telegram.ext import Updater, MessageHandler, Filters, CallbackContext
+from telegram import Update
+from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
 # ---------------------------
 # SETTINGS (tweak these)
