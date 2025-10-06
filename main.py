@@ -1,9 +1,11 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, ContextTypes, filters
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN")  # or put your token directly: "YOUR_TELEGRAM_BOT_TOKEN"
+
 
 # Upload to telegra.ph to get a temporary public URL
 def upload_to_telegraph(file_path):
