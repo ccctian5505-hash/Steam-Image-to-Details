@@ -1,8 +1,5 @@
-python-telegram-bot==21.6
+python-telegram-bot==21.4
 requests
 easyocr
 torch
 pytz
-Pillow
-six
-opencv-python
