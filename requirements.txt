@@ -1,5 +1,8 @@
-python-telegram-bot==13.15
+python-telegram-bot==21.6
 requests
 easyocr
-torch       # heavy; required by easyocr
+torch
 pytz
+Pillow
+six
+opencv-python
